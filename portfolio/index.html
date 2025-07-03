@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Souhardya Majumdar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+ 
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">&lt;portfolio/&gt;</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="contact-btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+  <div class="hero-content">
+    <h2>Hello, I'm</h2>
+    <h1><span class="glow-line">Souhardya Majumdar</span></h1>
+    <p class="typing" id="typing-text">a Tech Enthusiast</p>
+    <a href="assets/Souhardya_Resume.pdf" class="resume-btn" download>Download Resume</a>
+  </div>
+  <img src="assets/profile.jpg" alt="Souhardya Majumdar" class="hero-img" />
+</section>
+
+  <!-- About Section -->
+  <section class="about" id="about" data-aos="fade-up">
+    <div class="container about-content">
+      <img src="assets/about-img.jpg" alt="About Souhardya" class="about-img" />
+      <div>
+        <h2>About Me</h2>
+        <p>
+        I'm a passionate and driven Computer Science student at IEM Newtown. I love building things that live on the web — from clean, responsive websites to smart, functional systems. My journey in tech has been fueled by curiosity and a strong desire to solve real-world problems through code.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects" data-aos="fade-up">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card" data-aos="zoom-in">
+  <div class="card-inner">
+    <div class="card-front">
+      <i class="fas fa-code project-icon"></i>
+      <h3>Portfolio Website</h3>
+      <p>Responsive site to showcase skills using HTML, CSS, JS.</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Click below to explore more</p>
+      <a href="portfolio-details.html" class="project-link">
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+  <div class="card-inner">
+    <div class="card-front">
+      <i class="fas fa-microchip project-icon"></i>
+      <h3>Smart Helmet</h3>
+      <p>IoT-based helmet with GSM alert & GPS tracking using Arduino.</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Click below to explore more</p>
+      <a href="helmet-details.html" class="project-link">
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+  <div class="card-inner">
+    <div class="card-front">
+      <i class="fas fa-school project-icon"></i>
+      <h3>School Management System</h3>
+      <p>Python & MySQL system for student and school management.</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Click below to explore more</p>
+      <a href="school-details.html" class="project-link">
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+  <div class="container experience-container" data-aos="fade-up">
+    <h2>Experience</h2>
+
+    <div class="experience-timeline">
+      <div class="experience-card">
+        <i class="fas fa-briefcase experience-icon"></i>
+        <h3>Graphic Designer Intern</h3>
+        <h4>yptronix LLP</h4>
+        <p class="duration">May 2025 - Jun 2025</p>
+        <p>Created custom T-shirt designs aligned with brand identity, developed social media optimization (SMO) posts, and crafted engaging content for Google My Business (GMB). Designed professional banners for LinkedIn and Facebook, contributing to the company’s digital branding and client outreach initiatives.</p>
+      </div>
+
+      <!-- Add more experience cards here -->
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xjkrlzov" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer" data-aos="fade-up">
+  <div class="footer-container">
+    <h2>&lt;portfolio/&gt;</h2>
+    <p>© 2025 Souhardya Majumdar. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/souhardya-majumdar-9b86a9339/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://mail.google.com/mail/?view=cm&to=souhardyamajumdar03@gmail.com" target="_blank" title="Email">
+      <i class="fas fa-envelope"></i></a>
+      <i class="fas fa-phone-alt"></i>
+      <a href="tel:+919832407935">+91 9832407935</a>
+    </div>
+  </div>
+</footer>
+
+  <!-- Back to Top Button -->
+  <button onclick="scrollToTop()" class="back-to-top" id="backToTopBtn">
+    ↑
+  </button>
+
+  <!-- Scroll Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

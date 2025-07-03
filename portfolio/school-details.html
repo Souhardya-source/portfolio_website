@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School Management System | Souhardya Majumdar</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #ff6b00;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .project-type {
+      text-align: center;
+      color: #ccc;
+      font-size: 1.5rem;
+      margin-bottom: 50px;
+    }
+
+    .upcoming {
+      font-size: 9rem;
+      color: #ffffff;
+      margin: 60px 0;
+      opacity: 0.6;
+      animation: breathe 2s ease-in-out infinite;
+    }
+
+    /* Breathing animation */
+    @keyframes breathe {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    }
+
+    .back-btn-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .back-btn {
+    display: inline-block;
+    background-color: #ff6b00;
+    color: #fff;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 0 12px #ff6b00;
+    }
+
+    .back-btn:hover {
+    background-color: #e65c00;
+    transform: scale(1.25);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>School Management System</h1>
+    <p class="project-type">Category: Full-Stack Development</p>
+    <p class="upcoming">🚧 Upcoming</p>
+
+    <div class="back-btn-wrapper">
+  <a href="index.html#projects" class="back-btn">← Back to Projects</a>
+</div>
+  </div>
+</body>
+</html>

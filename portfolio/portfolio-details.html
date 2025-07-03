@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website - Souhardya Majumdar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .project-title {
+      font-size: 3.5rem;
+      color: #ff6b00;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .project-details {
+      max-width: 900px;
+      margin: 100px auto;
+      padding: 50px;
+    }
+    .project-details h1 {
+      color: #ff6a00;
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+    .project-type {
+      text-align: center;
+      color: #ccc;
+      font-size: 1.5rem;
+      margin-bottom: 50px;
+    }
+    .project-details img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 35px rgb(246, 115, 21);
+    }
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .features {
+      list-style: none;
+      padding-left: 0;
+    }
+    .features li {
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    .features li::before {
+      content: '\2022';
+      color: #ff6a00;
+      font-size: 1.5rem;
+      position: absolute;
+      left: 0;
+      top: -2px;
+    }
+    .back-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.back-btn {
+  display: inline-block;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 0 12px #ff6b00;
+}
+
+.back-btn:hover {
+  background-color: #e65c00;
+  transform: scale(1.25);
+}
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Optional: You can copy your existing navigation here -->
+  </header>
+
+  <section class="project-details">
+    <h1 class="project-title">Portfolio Website</h1>
+    <p class="project-type">Category: Web Development</p>
+    <img src="assets/portfolio-preview.png" alt="Portfolio Project Screenshot" />
+    <p class="description">
+      This project is a personal portfolio website built using HTML, CSS, and JavaScript. It showcases my projects, skills, experience, and includes smooth animations and a modern dark theme. It was designed to leave a professional impression on potential employers and collaborators.
+    </p>
+    <ul class="features">
+      <li>Responsive design with dark mode theme</li>
+      <li>Scroll animations using AOS library</li>
+      <li>Project cards with flip effects and interactive hover elements</li>
+      <li>Contact form powered by Formspree</li>
+    </ul>
+    <div class="back-btn-wrapper">
+  <a href="index.html#projects" class="back-btn">← Back to Projects</a>
+</div>
+  </section>
+
+  <footer>
+    <!-- Optional: Add your global footer here -->
+  </footer>
+</body>
+</html>
